@@ -2,15 +2,14 @@ import { useEffect } from 'react';
 import { Handshake, Globe, ShieldCheck, Users } from 'lucide-react';
 
 const stats = [
-  { icon: Users, value: '45+', label: 'Years of Experience' },
-  { icon: Globe, value: '3', label: 'Regions Served' },
-  { icon: Handshake, value: '500+', label: 'Events Delivered' },
-  { icon: ShieldCheck, value: '100%', label: 'Client Satisfaction' },
+  { icon: Users, value: '80', label: 'Crew Members on Ground' },
+  { icon: Globe, value: '11', label: 'Core Service Areas' },
+  { icon: Handshake, value: '100%', label: 'Seamless Execution' },
+  { icon: ShieldCheck, value: '4', label: 'Known Brand Clients' },
 ];
 
 const partners = [
-  'Venue Partners', 'Catering Partners', 'Decor Studios', 'Sound & Lighting',
-  'Photography Teams', 'Hospitality Networks', 'Travel Partners', 'Celebrity Agents',
+  'Asian Paints', 'Airtel', 'Vivanta', 'Venue Partners', 'Hospitality Networks', 'Travel Support', 'Production Teams', 'Celebrity Artists',
 ];
 
 export default function Expertise() {
@@ -35,8 +34,7 @@ export default function Expertise() {
           </h2>
           <div className="reveal reveal-delay-2 accent-line w-24 mx-auto mb-6" />
           <p className="reveal reveal-delay-3 font-sans text-base md:text-lg" style={{ color: 'var(--text-secondary)' }}>
-            Decades of relationships with Kashmir's finest vendors, venues, and artisans —
-            so every detail of your event is in expert hands.
+            Strong industry relationships and a capable on-ground team give every Royal Kashmir event the confidence, care, and coordination it deserves.
           </p>
         </div>
 

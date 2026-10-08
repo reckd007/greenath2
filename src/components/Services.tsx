@@ -11,17 +11,17 @@ interface Service {
 }
 
 const services: Service[] = [
-  { icon: CalendarCheck, title: 'Event Planning', desc: 'End-to-end planning that turns your vision into a flawlessly executed reality.' },
-  { icon: MessageSquare, title: 'Event Consultation', desc: 'Expert guidance to shape your ideas, budget, and timeline with confidence.' },
-  { icon: ClipboardList, title: 'Event Management', desc: 'On-ground coordination and logistics handled with precision from start to finish.' },
-  { icon: Heart, title: 'Wedding Planning', desc: 'Timeless Kashmiri weddings crafted with love, tradition, and modern elegance.' },
-  { icon: Sparkles, title: 'Decorations & Designing', desc: 'Bespoke decor and stage design that transforms any venue into a dreamscape.' },
-  { icon: MapPin, title: 'Destination Wedding Planning', desc: 'From lakeside to mountaintop — unforgettable weddings in Kashmir’s most stunning locales.' },
-  { icon: Megaphone, title: 'Event Marketing', desc: 'Strategic promotion and branding to make your event the talk of the town.' },
-  { icon: Package, title: 'Event Equipment Rentals', desc: 'Premium sound, lighting, staging, and equipment — everything you need, on demand.' },
-  { icon: Building2, title: 'MICE Services', desc: 'Meetings, incentives, conferences & exhibitions across Jammu, Kashmir & Ladakh.' },
-  { icon: Star, title: 'Celebrity Management', desc: 'Curated artist and celebrity bookings, managed end-to-end for your special occasion.' },
-  { icon: Gift, title: 'Party Supplies Rental', desc: 'A vast inventory of party essentials to bring every celebration to life.' },
+  { icon: CalendarCheck, title: 'Wedding Planning & Destination Weddings', desc: 'Complete wedding planning for elegant local celebrations and unforgettable destination weddings in Kashmir.' },
+  { icon: MessageSquare, title: 'Corporate Events & Shows', desc: 'Professional planning and production for corporate gatherings, shows, launches, and memorable brand moments.' },
+  { icon: ClipboardList, title: 'Brand Management', desc: 'Strategic event experiences that connect brands with audiences through thoughtful planning and polished execution.' },
+  { icon: Heart, title: 'Celebrity Management & Shows', desc: 'End-to-end artist coordination, celebrity appearances, and live shows managed with confidence.' },
+  { icon: Sparkles, title: 'Birthday Parties & Social Events', desc: 'Personal celebrations designed around your people, your story, and the atmosphere you want to create.' },
+  { icon: MapPin, title: 'Trade Fairs & Exhibitions', desc: 'Structured exhibition planning, stall experiences, visitor flow, and on-ground event management.' },
+  { icon: Megaphone, title: 'Conferences & Seminars', desc: 'Reliable conference and seminar solutions with precise schedules, guest care, and technical coordination.' },
+  { icon: Package, title: 'Product Launches & Road Shows', desc: 'High-impact launch experiences and road shows built to move with your brand and audience.' },
+  { icon: Building2, title: 'Entertainment Solutions & Foreign Artists', desc: 'Curated entertainment, production support, and artist coordination for standout experiences.' },
+  { icon: Star, title: 'Media Services', desc: 'Event media support that helps capture, communicate, and extend the impact of every occasion.' },
+  { icon: Gift, title: 'Hotel Reservation & Travel Support', desc: 'Thoughtful guest logistics, hotel reservations, and travel support for smooth event experiences.' },
 ];
 
 export default function Services() {
@@ -47,11 +47,11 @@ export default function Services() {
             What We Do
           </p>
           <h2 className="reveal reveal-delay-1 font-serif text-4xl md:text-5xl mb-6" style={{ color: 'var(--text-primary)' }}>
-            Services Crafted for <span className="italic shimmer-text">Every Occasion</span>
+            Complete Support for <span className="italic shimmer-text">Every Occasion</span>
           </h2>
           <div className="reveal reveal-delay-2 accent-line w-24 mx-auto mb-6" />
           <p className="reveal reveal-delay-3 font-sans text-base md:text-lg" style={{ color: 'var(--text-secondary)' }}>
-            A full-spectrum event house — from the first idea to the final applause.
+            From weddings and corporate shows to exhibitions, launches, travel support, and entertainment, Royal Kashmir manages every detail with confidence.
           </p>
         </div>
 

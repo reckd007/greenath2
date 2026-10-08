@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useTheme } from '@/context/ThemeContext';
 
-const LOGO = '/assets/images/LogoClient-removebg-preview.png';
+const LOGO = '/assets/images/reckd-transparent-225x225.png';
 
 const links = [
   { label: 'Home', href: '#home' },
@@ -39,7 +39,7 @@ export default function Navbar() {
           <a href="#home" className="flex items-center group">
             <img
               src={LOGO}
-              alt="Greenath Kashmir Events"
+              alt="Royal Kashmir Events"
               className="h-12 w-auto object-contain transition-transform group-hover:scale-105"
               style={{ filter: theme === 'dark' ? 'brightness(0) invert(1)' : 'none' }}
             />
@@ -96,7 +96,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-[72px] section-container">
           <img
             src={LOGO}
-            alt="Greenath Kashmir Events"
+            alt="Royal Kashmir Events"
             className="h-10 w-auto object-contain"
             style={{ filter: theme === 'dark' ? 'brightness(0) invert(1)' : 'none' }}
           />

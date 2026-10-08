@@ -1,9 +1,9 @@
-import { Phone, Mail, MapPin, Instagram, Facebook } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
 import { useTheme } from '@/context/ThemeContext';
 
-const PHONE = '+917006206019';
-const EMAIL = 'greenathkashmir@gmail.com';
-const LOGO = '/assets/images/LogoClient-removebg-preview.png';
+const PHONE = '+919906626262';
+const EMAIL = 'royalkashmirevents@gmail.com';
+const LOGO = '/assets/images/reckd-transparent-225x225.png';
 
 const quickLinks = [
   { label: 'Home', href: '#home' },
@@ -14,12 +14,11 @@ const quickLinks = [
 ];
 
 const serviceLinks = [
-  'Wedding Planning', 'Destination Weddings', 'Event Management',
-  'Decorations & Design', 'MICE Services', 'Celebrity Management',
+  'Wedding Planning', 'Corporate Events & Shows', 'Brand Management',
+  'Celebrity Shows', 'Trade Fairs & Exhibitions', 'Travel Support',
 ];
 
-const MAP_QUERY =
-  'Greenath Kashmir Event Management & Hospitality, Lal Bazar Main Road, Bota Kadal Rd, Srinagar, Jammu and Kashmir 190023';
+const INSTAGRAM_REEL = 'https://www.instagram.com/reel/DJqa-sQv0I5/?igsh=N2UxMWd2NjJwOHRt';
 
 export default function Footer() {
   const { theme } = useTheme();
@@ -31,15 +30,15 @@ export default function Footer() {
           <div>
             <img
               src={LOGO}
-              alt="Greenath Kashmir Events"
+              alt="Royal Kashmir Events"
               className="h-14 w-auto object-contain mb-5"
               style={{ filter: theme === 'dark' ? 'brightness(0) invert(1)' : 'none' }}
             />
             <p className="font-serif italic text-lg leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>
-              Creating Unforgettable Moments in Paradise
+              Creating Royal Experiences in the Heart of Kashmir
             </p>
             <p className="font-sans text-xs" style={{ color: 'var(--text-muted)' }}>
-              A Unit of Greenath Hospitality Group
+              Royal Kashmir Event Management Private Limited
             </p>
           </div>
 
@@ -74,13 +73,13 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="flex-shrink-0 mt-0.5" style={{ color: 'var(--accent-bright)' }} />
                 <span className="font-sans text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                  Lal Bazar Main Road, Bota Kadal Rd, Srinagar, J&K 190023
+                  Magarmal Bagh, opposite Shifa Hospital, Qamarwari, Srinagar, J&K 190009
                 </span>
               </li>
               <li>
                 <a href={`tel:${PHONE}`} className="flex items-center gap-3 group">
                   <Phone size={16} style={{ color: 'var(--accent-bright)' }} />
-                  <span className="font-sans text-xs" style={{ color: 'var(--text-secondary)' }}>+91 70062 06019</span>
+                  <span className="font-sans text-xs" style={{ color: 'var(--text-secondary)' }}>+91 99066 26262</span>
                 </a>
               </li>
               <li>
@@ -92,11 +91,8 @@ export default function Footer() {
             </ul>
             {/* Socials */}
             <div className="flex gap-3">
-              <a href="https://instagram.com/greenath_kashmir_events" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-9 h-9 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)' }}>
+              <a href={INSTAGRAM_REEL} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-9 h-9 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)' }}>
                 <Instagram size={16} />
-              </a>
-              <a href="https://facebook.com/greenathkashmirevents" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-9 h-9 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)' }}>
-                <Facebook size={16} />
               </a>
             </div>
           </div>
@@ -105,10 +101,10 @@ export default function Footer() {
         <div className="accent-line mb-6" />
         <div className="flex flex-col md:flex-row items-center justify-between gap-3">
           <p className="font-sans text-xs" style={{ color: 'var(--text-muted)' }}>
-            © {new Date().getFullYear()} Greenath Kashmir Event Management & Hospitality. All rights reserved.
+            © {new Date().getFullYear()} Royal Kashmir Event Management Private Limited. All rights reserved.
           </p>
           <p className="font-sans text-xs" style={{ color: 'var(--text-muted)' }}>
-            Speak Davar · 45+ years of excellence
+            Mukhtar Ahmad Bhat · Creating Royal Experiences
           </p>
         </div>
       </div>

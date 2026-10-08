@@ -4,18 +4,18 @@ import { Award, Layers, Heart } from 'lucide-react';
 const cards = [
   {
     icon: Award,
-    title: '45+ Years of Excellence',
-    desc: 'Four and a half decades of crafting extraordinary weddings and events across the valleys of Kashmir.',
+    title: 'Experienced Event Specialists',
+    desc: 'Professional event management rooted in Srinagar, with the experience and relationships to deliver exceptional celebrations across Kashmir.',
   },
   {
     icon: Layers,
-    title: 'Versatile Service',
-    desc: 'From intimate gatherings to grand destination weddings, corporate MICE to celebrity galas — we do it all.',
+    title: 'Large-Scale Capability',
+    desc: 'From intimate celebrations to major productions, our teams can coordinate up to 80 crew members on the ground for seamless execution.',
   },
   {
     icon: Heart,
-    title: '100% Customer Satisfaction',
-    desc: 'Every event is treated as our own. Our clients become family, and their moments become our legacy.',
+    title: 'Cost-Effective Excellence',
+    desc: 'We combine high-quality production with practical planning, trusted industry relationships, and attentive service from first brief to final guest.'
   },
 ];
 
@@ -39,15 +39,14 @@ export default function About() {
         {/* Heading */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="reveal font-sans text-xs tracking-[0.4em] uppercase mb-4" style={{ color: 'var(--accent)' }}>
-            Why Greenath
+            Why Royal Kashmir
           </p>
           <h2 className="reveal reveal-delay-1 font-serif text-4xl md:text-5xl mb-6" style={{ color: 'var(--text-primary)' }}>
-            A Legacy Written in <span className="italic shimmer-text">Paradise</span>
+            Events Delivered with <span className="italic shimmer-text">Royal Confidence</span>
           </h2>
           <div className="reveal reveal-delay-2 accent-line w-24 mx-auto mb-6" />
           <p className="reveal reveal-delay-3 font-sans text-base md:text-lg" style={{ color: 'var(--text-secondary)' }}>
-            For over four decades, Greenath Kashmir Events has been the trusted name behind the region's
-            most cherished celebrations — blending timeless Kashmiri hospitality with modern event artistry.
+            Royal Kashmir Event Management Private Limited is a professional event management company based in Srinagar, Kashmir. We create cost-effective, high-quality experiences while bringing together strong industry relationships, detailed planning, and seamless on-ground execution.
           </p>
         </div>
 

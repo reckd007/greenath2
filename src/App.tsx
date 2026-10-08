@@ -11,7 +11,7 @@ import Gallery from '@/components/Gallery';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
-const WHATSAPP = '917006206019';
+const WHATSAPP = '919906626262';
 
 function WhatsAppIcon({ size = 28 }: { size?: number }) {
   return (
@@ -28,7 +28,7 @@ function LoadingScreen({ done }: { done: boolean }) {
         <div className="absolute inset-0 rounded-full border-2 border-transparent" style={{ borderTopColor: 'var(--accent)', borderRightColor: 'var(--accent-bright)', animation: 'spin-slow 1s linear infinite' }} />
         <div className="absolute inset-2 rounded-full border-2 border-transparent" style={{ borderBottomColor: 'var(--accent-soft)', animation: 'spin-slow 1.5s linear infinite reverse' }} />
       </div>
-      <p className="font-serif italic text-xl" style={{ color: 'var(--accent-soft)' }}>Greenath Kashmir Events</p>
+      <p className="font-serif italic text-xl" style={{ color: 'var(--accent-soft)' }}>Royal Kashmir Events</p>
     </div>
   );
 }

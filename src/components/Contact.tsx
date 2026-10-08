@@ -2,13 +2,13 @@ import { useEffect, useState } from 'react';
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle, MessageCircle, ExternalLink } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 
-const PHONE = '+917006206019';
-const WHATSAPP = '917006206019';
-const EMAIL = 'greenathkashmir@gmail.com';
-const ADDRESS = 'Greenath Kashmir Event Management & Hospitality, Lal Bazar Main Road, Bota Kadal Rd, Srinagar, Jammu and Kashmir 190023';
+const PHONE = '+919906626262';
+const WHATSAPP = '919906626262';
+const EMAIL = 'royalkashmirevents@gmail.com';
+const ADDRESS = 'Royal Kashmir Event Management Private Limited, Magarmal Bagh, opposite Shifa Hospital, Qamarwari, Srinagar, Jammu & Kashmir 190009';
 
 const MAP_QUERY = encodeURIComponent(
-  'Greenath Kashmir Event Management & Hospitality, Lal Bazar Main Road, Bota Kadal Rd, Srinagar, Jammu and Kashmir 190023'
+  'Royal Kashmir Event Management Private Limited, Magarmal Bagh, opposite Shifa Hospital, Qamarwari, Srinagar, Jammu & Kashmir 190009'
 );
 const GOOGLE_MAPS_LINK = `https://www.google.com/maps/search/?api=1&query=${MAP_QUERY}`;
 
@@ -54,14 +54,14 @@ export default function Contact() {
       <div className="section-container relative">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="reveal font-sans text-xs tracking-[0.4em] uppercase mb-4" style={{ color: 'var(--accent)' }}>
-            Reach Us
+            Royal Kashmir Events
           </p>
           <h2 className="reveal reveal-delay-1 font-serif text-4xl md:text-5xl mb-6" style={{ color: 'var(--text-primary)' }}>
             Let's Get Started <span className="italic shimmer-text">Planning</span>
           </h2>
           <div className="reveal reveal-delay-2 accent-line w-24 mx-auto mb-6" />
           <p className="reveal reveal-delay-3 font-sans text-base md:text-lg" style={{ color: 'var(--text-secondary)' }}>
-            Share your vision with us — we'll bring it to life in the heart of Kashmir.
+            Share your vision with us — we’ll create a royal experience and execute it seamlessly in the heart of Kashmir.
           </p>
         </div>
 
@@ -87,7 +87,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-sans text-xs tracking-[0.15em] uppercase mb-1" style={{ color: 'var(--text-muted)' }}>Phone / WhatsApp</p>
-                  <p className="font-sans text-sm" style={{ color: 'var(--text-secondary)' }}>+91 70062 06019</p>
+                  <p className="font-sans text-sm" style={{ color: 'var(--text-secondary)' }}>+91 99066 26262</p>
                 </div>
               </a>
 
@@ -188,7 +188,7 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Map — styled card with Open in Google Maps button (iframes blocked in sandbox) */}
+        {/* Map — styled card with Open Srinagar Location button (iframes blocked in sandbox) */}
         <div className="reveal reveal-delay-2">
           <div
             className="map-container relative overflow-hidden flex flex-col items-center justify-center text-center px-6"
@@ -216,7 +216,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              <ExternalLink size={16} /> Open in Google Maps
+              <ExternalLink size={16} /> Open Srinagar Location
             </a>
           </div>
         </div>

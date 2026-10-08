@@ -94,8 +94,8 @@ export default function OpeningAnimation({ onComplete }: Props) {
     };
   }, []);
 
-  const lines = ['Where Paradise', 'Meets', 'Perfection'];
-  const LOGO = '/assets/images/LogoClient-removebg-preview.png';
+  const lines = ['Where Every Event', 'Feels', 'Royal'];
+  const LOGO = '/assets/images/reckd-transparent-225x225.png';
 
   return (
     <div
@@ -148,7 +148,7 @@ export default function OpeningAnimation({ onComplete }: Props) {
       <div className="absolute inset-0 flex flex-col items-center justify-center z-10 pointer-events-none px-6">
         <img
           src={LOGO}
-          alt="Greenath Kashmir Events"
+          alt="Royal Kashmir Events"
           className="mb-8 h-20 w-auto object-contain"
           style={{
             filter: 'brightness(0) invert(1)',
@@ -166,7 +166,7 @@ export default function OpeningAnimation({ onComplete }: Props) {
           className="text-center"
         >
           <p className="font-sans text-xs tracking-[0.4em] uppercase mb-6" style={{ color: '#A5D6A7' }}>
-            Greenath Kashmir Events
+            Royal Kashmir Events
           </p>
           {lines.map((line, i) => (
             <h1
@@ -204,7 +204,7 @@ export default function OpeningAnimation({ onComplete }: Props) {
         }}
       >
         <p className="font-sans text-xs tracking-[0.3em] uppercase" style={{ color: '#A5D6A7' }}>
-          Move your cursor to explore Kashmir
+          Move your cursor to explore Royal Kashmir
         </p>
       </div>
     </div>

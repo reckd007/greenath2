@@ -96,8 +96,8 @@ export default function Hero({ onWatch }: Props) {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl">
         <img
-          src="/assets/images/LogoClient-removebg-preview.png"
-          alt="Greenath Kashmir Events"
+          src="/assets/images/reckd-transparent-225x225.png"
+          alt="Royal Kashmir Events"
           className="mx-auto mb-8 h-20 w-auto object-contain"
           style={{
             filter: 'brightness(0) invert(1)',
@@ -115,7 +115,7 @@ export default function Hero({ onWatch }: Props) {
             transition: 'opacity 1s ease 0.3s, transform 1s ease 0.3s',
           }}
         >
-          A Unit of Greenath Hospitality Group
+          Royal Kashmir Event Management Private Limited
         </p>
 
         {/* "Weddings. Hospitality. Events." — falls from above smoothly */}
@@ -148,7 +148,7 @@ export default function Hero({ onWatch }: Props) {
             transition: 'opacity 1s ease 1.4s, transform 1s ease 1.4s',
           }}
         >
-          Creating Memorable Events in the Heart of Kashmir
+          Creating Royal Experiences in the Heart of Kashmir
         </p>
         <p
           className="font-sans text-sm md:text-base max-w-xl mx-auto mb-10"
@@ -158,7 +158,7 @@ export default function Hero({ onWatch }: Props) {
             transition: 'opacity 1s ease 1.6s',
           }}
         >
-          45+ years of crafting unforgettable weddings and events in paradise.
+          Creating Royal Experiences in the Heart of Kashmir with seamless execution and trusted expertise.
         </p>
         <div
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
