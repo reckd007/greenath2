@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Play, ChevronDown } from 'lucide-react';
+import { Play } from 'lucide-react';
 
 const HERO_IMG =
   'https://images.pexels.com/photos/18358505/pexels-photo-18358505.jpeg?auto=compress&cs=tinysrgb&w=1920';
@@ -175,14 +175,6 @@ export default function Hero({ onWatch }: Props) {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div
-        className="absolute bottom-8 left-0 right-0 flex flex-col items-center gap-2"
-        style={{ opacity: mounted ? 0.6 : 0, transition: 'opacity 1s ease 2.2s' }}
-      >
-        <span className="font-sans text-[10px] tracking-[0.3em] uppercase" style={{ color: 'var(--text-secondary)' }}>Scroll</span>
-        <ChevronDown size={18} className="animate-bounce" style={{ color: 'var(--accent-soft)' }} />
-      </div>
     </section>
   );
 }
