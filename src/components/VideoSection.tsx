@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { Play, ExternalLink } from 'lucide-react';
 
-const INSTAGRAM_REEL = 'https://www.instagram.com/reel/DJqa-sQv0I5/?igsh=N2UxMWd2NjJwOHRt';
+const INSTAGRAM_REEL = 'https://www.instagram.com/reel/Dcm8Xl5TkX0/?utm_source=ig_web_copy_link&xtok=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==';
 const THUMB =
   'https://images.pexels.com/photos/27794015/pexels-photo-27794015.jpeg?auto=compress&cs=tinysrgb&w=1920';
 

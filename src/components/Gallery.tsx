@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 const images = [
   { url: 'https://images.pexels.com/photos/34079355/pexels-photo-34079355.jpeg?auto=compress&cs=tinysrgb&w=940', label: 'Mandap Design', span: 'lg:col-span-2 lg:row-span-2' },
-  { url: 'https://images.pexels.com/photos/27635496/pexels-photo-27635496.jpeg?auto=compress&cs=tinysrgb&w=940', label: 'Bridal Elegance', span: '' },
+  { url: '/assets/images/827410173_18444250561122635_8316987104885940042_n.jpg', label: 'Royal Wedding Decor', span: '' },
   { url: 'https://images.pexels.com/photos/14148087/pexels-photo-14148087.jpeg?auto=compress&cs=tinysrgb&w=940', label: 'Night Celebrations', span: '' },
   { url: 'https://images.pexels.com/photos/33417234/pexels-photo-33417234.jpeg?auto=compress&cs=tinysrgb&w=940', label: 'Floral Canopy', span: '' },
   { url: 'https://images.pexels.com/photos/31307956/pexels-photo-31307956.jpeg?auto=compress&cs=tinysrgb&w=940', label: 'Outdoor Setup', span: '' },

@@ -18,7 +18,7 @@ const serviceLinks = [
   'Celebrity Shows', 'Trade Fairs & Exhibitions', 'Travel Support',
 ];
 
-const INSTAGRAM_REEL = 'https://www.instagram.com/reel/DJqa-sQv0I5/?igsh=N2UxMWd2NjJwOHRt';
+const INSTAGRAM_PROFILE = 'https://www.instagram.com/royal_kashmir_events?utm_source=ig_web_button_share_sheet&exln=ZDNlZDc0MzIxNw==';
 
 export default function Footer() {
   const { theme } = useTheme();
@@ -91,7 +91,7 @@ export default function Footer() {
             </ul>
             {/* Socials */}
             <div className="flex gap-3">
-              <a href={INSTAGRAM_REEL} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-9 h-9 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)' }}>
+              <a href={INSTAGRAM_PROFILE} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-9 h-9 rounded-full flex items-center justify-center transition-all hover:scale-110" style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)' }}>
                 <Instagram size={16} />
               </a>
             </div>
