@@ -95,7 +95,7 @@ export default function OpeningAnimation({ onComplete }: Props) {
   }, []);
 
   const lines = ['Where Every Event', 'Feels', 'Royal'];
-  const LOGO = '/assets/images/reckd-transparent-225x225.png';
+  const LOGO = '/assets/images/Vivid_Green_RK_Motion_Emblem.png';
 
   return (
     <div

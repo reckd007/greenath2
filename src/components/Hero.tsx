@@ -96,7 +96,7 @@ export default function Hero({ onWatch }: Props) {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl">
         <img
-          src="/assets/images/reckd-transparent-225x225.png"
+          src="/assets/images/Vivid_Green_RK_Motion_Emblem.png"
           alt="Royal Kashmir Events"
           className="mx-auto mb-8 h-20 w-auto object-contain"
           style={{

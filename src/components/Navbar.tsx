@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useTheme } from '@/context/ThemeContext';
 
-const LOGO = '/assets/images/reckd-transparent-225x225.png';
+const LOGO = '/assets/images/Vivid_Green_RK_Motion_Emblem.png';
 
 const links = [
   { label: 'Home', href: '#home' },

@@ -3,7 +3,7 @@ import { useTheme } from '@/context/ThemeContext';
 
 const PHONE = '+919906626262';
 const EMAIL = 'royalkashmirevents@gmail.com';
-const LOGO = '/assets/images/reckd-transparent-225x225.png';
+const LOGO = '/assets/images/Vivid_Green_RK_Motion_Emblem.png';
 
 const quickLinks = [
   { label: 'Home', href: '#home' },
